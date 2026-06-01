@@ -4,7 +4,7 @@ import StoreKit
 enum SubscriptionLimits {
     static let freeClientLimit = 2
     static let freePdfExportLimit = 3
-    static let proProductID = "com.starestate.tradesmanhourslog.pro"
+    static let proProductID = "com.greetroll8.tradesmanhourslog.pro"
 }
 
 /// Gates premium features. Purchase is stubbed but the free-tier limits are enforced.

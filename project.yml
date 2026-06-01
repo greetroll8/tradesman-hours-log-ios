@@ -1,6 +1,6 @@
 name: TradesmanHoursLog
 options:
-  bundleIdPrefix: com.starestate
+  bundleIdPrefix: com.greetroll8
   deploymentTarget:
     iOS: "16.0"
   createIntermediateGroups: true
@@ -24,7 +24,7 @@ targets:
           - "Info.plist"
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.starestate.tradesmanhourslog
+        PRODUCT_BUNDLE_IDENTIFIER: com.greetroll8.tradesmanhourslog
         PRODUCT_NAME: TradesmanHoursLog
         PRODUCT_MODULE_NAME: TradesmanHoursLog
         GENERATE_INFOPLIST_FILE: NO
@@ -45,7 +45,7 @@ targets:
       - path: Sources/Util/Formatting.swift
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.starestate.tradesmanhourslog.tests
+        PRODUCT_BUNDLE_IDENTIFIER: com.greetroll8.tradesmanhourslog.tests
         GENERATE_INFOPLIST_FILE: "YES"
 
 schemes:

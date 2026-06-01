@@ -63,10 +63,10 @@ workflows:
       xcode: latest
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.starestate.tradesmanhourslog
+        bundle_identifier: com.greetroll8.tradesmanhourslog
       vars:
         APP_STORE_APPLE_ID: 0000000000
-        BUNDLE_ID: com.starestate.tradesmanhourslog
+        BUNDLE_ID: com.greetroll8.tradesmanhourslog
     scripts:
       - name: Install XcodeGen
         script: |
