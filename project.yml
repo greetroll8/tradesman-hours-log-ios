@@ -41,8 +41,8 @@ targets:
     deploymentTarget: "16.0"
     sources:
       - Tests
-    dependencies:
-      - target: App
+      - path: Sources/Models/Models.swift
+      - path: Sources/Util/Formatting.swift
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.starestate.tradesmanhourslog.tests

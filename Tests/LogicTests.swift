@@ -1,5 +1,8 @@
 import XCTest
-@testable import TradesmanHoursLog
+import Foundation
+// Pure-logic tests compile the units-under-test directly into the test bundle
+// (Models.swift + Formatting.swift are listed in this target's sources), so no
+// app host / @testable linkage is needed.
 
 /// Pure-logic unit tests — deterministic, no UI. These are the automated proof
 /// that the app's billing/time math matches the spec (sections 12 & 15).
